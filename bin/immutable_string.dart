@@ -6,7 +6,7 @@ void immutableString(String a, String b){
   }
 }
 
-void testStrings() {
+void testImmutableString() {
   String a = "dana";
   String aa = a;
   String b = "morgan";
