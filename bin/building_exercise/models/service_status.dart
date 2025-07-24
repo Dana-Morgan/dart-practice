@@ -1,0 +1,4 @@
+enum ServiceStatus{
+  outOfService,
+  inService
+}

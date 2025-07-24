@@ -1,0 +1,4 @@
+enum ApartmentType{
+  office,
+  apartment
+}

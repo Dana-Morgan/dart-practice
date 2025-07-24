@@ -4,6 +4,9 @@ import './course_exercises.dart';
 import './collections.dart';
 import './record.dart';
 import './late.dart';
+import './classes.dart';
+import './product.dart';
+import 'building_exercise/ui/test_building.dart';
 
 
 void main(List<String> arguments) {
@@ -47,8 +50,16 @@ void main(List<String> arguments) {
     'Bob': 75,
     'Charlie': 60,
   };
+  testClass();
 
+  Map<String, dynamic> productData = {
+    'id': '123',
+    'name': 'Phone',
+    'price': 299.99,
+  };
 
+  Product p = Product.fromMap(productData);
+  print('Product: ${p.name}, id: ${p.id}, price: ${p.price}');
 
-
+ testBuilding();
 }
