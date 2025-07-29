@@ -22,7 +22,7 @@ class Elevator{
     }else {
       service = 'out Of Service';
     }
-    return 'elevator whith id: ${this.id} with ${this.capacity} which service ${floors} floors is ${service} ';
+    return 'elevator with id: $id with $capacity which service $floors floors is $service ';
   }
 
 }

@@ -7,6 +7,7 @@ import './late.dart';
 import './classes.dart';
 import './product.dart';
 import 'building_exercise/ui/test_building.dart';
+import './async.dart';
 
 
 void main(List<String> arguments) {
@@ -61,5 +62,21 @@ void main(List<String> arguments) {
   Product p = Product.fromMap(productData);
   print('Product: ${p.name}, id: ${p.id}, price: ${p.price}');
 
- testBuilding();
+
+//  print('start');
+//  //method chaining same as cascade
+//   thirdFun('a')
+//       .then((_) => print('then'))
+//       .whenComplete(() => print('complete'));
+// print('end');
+  // //listener();
+  // var myStream = secFun().asStream().asBroadcastStream();
+  // myStream.listen((data) {
+  //   print('received from secFun(): $data');
+  // });
+  // myStream.listen((data) {
+  //   print('received from secFun(): $data');
+  // });
+
+  testBuilding();
 }
